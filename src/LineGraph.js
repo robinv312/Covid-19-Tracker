@@ -85,7 +85,7 @@ function LineGraph({ casesType }) {
 
   return (
     <div>
-      {data?.length > 0 && (
+      {data.length > 0 && (
         <Line
           data={{
             datasets: [
